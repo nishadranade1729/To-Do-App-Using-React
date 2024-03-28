@@ -1,0 +1,69 @@
+.App {
+  margin: 20px auto;
+  text-align: center;
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 30px;
+  display: flex;
+  flex-flow: column;
+  align-items: stretch;
+  font-size: 21px;
+  background-color: #fdfd96;
+}
+
+.todo-header {
+  border-bottom: 1px solid #020269;
+}
+
+.todo-body {
+  text-align: left;
+  display: flex;
+  flex-flow: column;
+}
+
+.todo-body div {
+  padding: 10px 50px;
+  border-bottom: 1px solid #020269;
+  margin-top: 5px;
+}
+
+.todo-body span {
+  margin: 0 20px;
+}
+
+.todo-footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 30px;
+}
+
+button {
+  padding: 8px 20px;
+  color: #f2f2f2;
+  font-weight: bold;
+  background: #966F33;
+  border-radius: 8px
+}
+
+.task {
+  display: flex;
+  flex-direction: colunn;
+  justify-content: space-between; 
+}
+
+.delete {
+  background: red;
+}
+
+#add-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 4px
+;}
+
+#add-form input {
+  width: 60%;
+  padding: 4px 20px ;
+  font-size: 21px;
+  border-radius: 10px
+}
